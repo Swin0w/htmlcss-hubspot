@@ -25,18 +25,57 @@ body {
 header {
   width: 100%;
   height: 10vh;
+  position: fixed;
 }
 #upper-div {
-  background-color: #99c9ff;
+  background-color: #defffa;
   height: 5vh;
   border-bottom: 2px solid #2b8eff;
 }
+#sx-content-header-up {
+  float: left;
+  line-height: 5vh;
+  vertical-align: middle;
+}
+#sx-content-header-up svg {
+  width: 16px;
+  height: 16px;
+}
+#sx-content-header-up a {
+  text-decoration: none;
+  color: #1a3d38;
+}
+#dx-content-header-up {
+  float: right;
+  line-height: 5vh;
+  vertical-align: middle;
+}
+.fa {
+  color: #00fad4;
+}
 #under-div{
   height: 5vh;
+  background-color: white;
 }
 #sx-content-header-under{
   float: left;
-  margin-top: 20%;
+  line-height: 5vh;
+}
+#sx-content-header-under img {
+  vertical-align: middle;
+}
+nav {
+  float: right;
+  line-height: 5vh;
+  vertical-align: middle;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #3d3d59;
+}
+li {
+  display: inline;
 }
 /* REGOLE MAIN */
 /* SEZIONE 1 */
