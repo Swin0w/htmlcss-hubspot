@@ -7,15 +7,18 @@
 }
 body {
   font-family: 'Yusei Magic', sans-serif;
+  overflow-x: hidden;
+}
+.sizing {
+  margin: 0 15% 0 15%;
+  height: 100%;
 }
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-.sizing {
-  margin: 0 15% 0 15%;
-}
+
 /* REGOLE HEADER */
 header {
   width: 100%;
@@ -42,3 +45,4 @@ header {
   border-top: 2px solid #2b8eff;
   border-bottom: 2px solid #2b8eff;
 }
+/* SEZIONE 3 */
