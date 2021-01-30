@@ -20,7 +20,9 @@ body {
   display: table;
   clear: both;
 }
+button {
 
+}
 /* REGOLE HEADER */
 header {
   width: 100%;
@@ -49,10 +51,28 @@ header {
   float: right;
   line-height: 5vh;
   vertical-align: middle;
+
 }
-.fa {
+#b1-header-up{
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: orange;
+  margin-left: 20px;
+}
+#b2-header-up {
+  background-color: orange;
+  border: 2px solid orange;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* .fa {
   color: #00fad4;
-}
+} */
 #under-div{
   height: 5vh;
   background-color: white;
