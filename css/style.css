@@ -20,6 +20,9 @@ body {
   display: table;
   clear: both;
 }
+.sizing-interno {
+  margin: 0 5% 0 5%;
+}
 /* REGOLE HEADER */
 header {
   width: 100%;
@@ -101,14 +104,14 @@ li {
   background-image: url("../img/jumbotron.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 1650px;
   /* height: 70vh; */
 }
 #first-text  {
   padding-top: 150px;
 }
 #first-text h1{
-  color: #131636;
+  color: #1d1e33;
   font-weight: bold;
   font-size: 30pt;
 }
@@ -133,19 +136,43 @@ li {
 }
 #border-bottom {
   background-color: #9efff0;
-  height: 8.7vh;
+  height: 9.5vh;
   border-top: 2px solid #2b8eff;
   border-bottom: 2px solid #2b8eff;
   margin-top: 270px;
 }
 /* SEZIONE 2 */
-#third {
-  background-color: #c2f9ff;
+#second {
+  background-color: #dbfbff;
   /* height: 120vh; */
   padding-top: 20px;
 }
 .firstminisection {
   text-align: center;
+}
+#second-imgAndTitle {
+  padding-bottom: 20px;
+}
+#second-imgAndTitle h1 {
+  color: #1d1e33;
+  font-size: 30pt;
+}
+#second-imgAndTitle img{
+  width: 300px;
+  height: 250px;
+}
+#second-text {
+  color: #1d1e33;
+  padding-bottom: 20px;
+}
+
+#secondminisection {
+  background-color: #fff4f0;
+  width: 100%;
+}
+#secondminisection img{
+  width: 150px;
+  height: 150px;
 }
 /* SEZIONE 3 */
 #fourth {
