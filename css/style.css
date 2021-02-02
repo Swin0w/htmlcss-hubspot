@@ -165,11 +165,12 @@ li {
 #secondminisection {
   background-color: #fff4f0;
   width: 100%;
+  padding: 40px;
 }
  #secondminisection-imgAndButton {
   float: left;
   width: 40%;
-  margin: 40px 10%;
+  text-align: center;
 }
 #secondminisection img {
   width: 200px;
@@ -179,8 +180,6 @@ li {
   background-color: #ff680a;
   border: none;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 8%;
   /* transform: translate(-50%,-50%); */
   width: 120px;
   height: 50px;
@@ -188,8 +187,27 @@ li {
   font-weight: bold;
 }
 #secondminisection-text {
-  float: right;
+  float: left;
+  width: 60%;
+  padding: 25px;
 }
+#secondminisection-title, #secondminisection-desc, #secondminisection-feature {
+  margin-bottom: 20px;
+}
+#secondminisection-border{
+  display: inline-block;
+  float: right;
+  border: 1px solid lightgrey;
+  width: 70%;
+  margin-top: -10px;
+}
+#secondminisection li {
+  margin-left: 20px;
+}
+#secondminisection li:first-child {
+  margin-left: 0;
+}
+
 /*#secondminisection-imgAndButton button {
   text-align: center;
 } */
