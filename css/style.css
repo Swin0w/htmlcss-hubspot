@@ -215,15 +215,46 @@ li {
 #thirdminisection {
   width: 100%;
 }
+.third-col img {
+  width: 100px;
+  height: 100px;
+}
 .third-col {
   background-color: #fff4f0;
-  width: 20%;
-  margin-top: 50px;
-  padding: 30px;
+  width: 30%;
+  margin: 50px auto;
+  padding: 40px;
   float: left;
+  text-align: center;
 }
-.third-col #dx{
+#center {
+margin: 50px 5% 50px 5%;
+}
+#dx {
   float: right;
+}
+.third-col h3, p, h4{
+  margin-top: 20px;
+}
+.third-col ul {
+  margin-top: 20px;
+}
+.third-col hr {
+  margin-top: 60px;
+}
+.third-col li {
+  display: block;
+  text-align: left;
+}
+.third-col button {
+  background-color: #ff680a;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
 }
 /*#secondminisection-imgAndButton button {
   text-align: center;
