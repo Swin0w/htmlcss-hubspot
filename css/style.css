@@ -276,13 +276,47 @@ margin: 50px 5% 50px 5%;
 .fourth-img img {
   width: 120px;
   height: 30px;
-  margin-left: 20px;
   margin-top: 30px;
+  margin-left: 20px;
+}
+.fourth-img img:first-child {
+  margin-left:0;
 }
 #fourth-dx-up, #fourth-dx-down {
   float:right;
 }
-
+#fourth-text {
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+#fourth-text h1 {
+  color: #1d1e33;
+  font-weight: bold;
+  font-size: 30pt;
+}
+#fourth-text button {
+  margin-top: 20px;
+  background-color: #ff680a;
+  border: none;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+#fourth-woman-img {
+  float: right;
+  padding: 50px;
+}
+#fourth-woman-img img{
+  width: 300px;
+  height: 300px;
+}
+/* #fourth-text {
+  width: 30%;
+} */
 /* FOOTER */
 footer {
   background-color: #212245;
