@@ -25,6 +25,8 @@ header {
   width: 100%;
   height: 10vh;
   position: fixed;
+  top: 0;
+  left:0;
 }
 #upper-div {
   background-color: #defffa;
@@ -241,7 +243,6 @@ li {
 footer {
   background-color: #212245;
   color: white;
-  height: 60vh;
 }
 footer a {
   text-decoration: none;
@@ -258,6 +259,7 @@ footer li{
   width: 23.3%;
   padding: 30px;
   float: left;
+  margin-bottom: 30px;
 }
 #inline-social ul:first-child{
   margin-top: 20px;
@@ -274,4 +276,28 @@ footer li{
   border: none;
   border-radius: 5px;
   color: #212245;
+}
+footer #lang-ul {
+  text-align: center;
+}
+footer #lang-ul li{
+  display: inline;
+  margin-left: 10px;
+}
+footer hr {
+  margin-top: 10px;
+}
+#copyright-logo-dx {
+  float: left;
+}
+#info-legali {
+  float: right;
+}
+#info-legali li {
+  display: inline;
+  margin-left: 10px;
+}
+footer .clearfix {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
