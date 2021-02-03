@@ -20,6 +20,15 @@ body {
   display: table;
   clear: both;
 }
+.s2-botton{
+  background-color: #ff680a;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+}
 /* REGOLE HEADER */
 header {
   width: 100%;
@@ -178,16 +187,6 @@ li {
   width: 200px;
   height: 200px;
 }
-#secondminisection-imgAndButton button{
-  background-color: #ff680a;
-  border: none;
-  border-radius: 5px;
-  /* transform: translate(-50%,-50%); */
-  width: 120px;
-  height: 50px;
-  color: white;
-  font-weight: bold;
-}
 #secondminisection-text {
   float: left;
   width: 60%;
@@ -247,13 +246,6 @@ margin: 50px 5% 50px 5%;
   text-align: left;
 }
 .third-col button {
-  background-color: #ff680a;
-  border: none;
-  border-radius: 5px;
-  width: 120px;
-  height: 50px;
-  color: white;
-  font-weight: bold;
   margin-top: 40px;
 }
 /*#secondminisection-imgAndButton button {
