@@ -214,11 +214,11 @@ li {
 #thirdminisection {
   width: 100%;
 }
-.third-col img {
+.thirdminisection-col img {
   width: 100px;
   height: 100px;
 }
-.third-col {
+.thirdminisection-col {
   background-color: #fff4f0;
   width: 30%;
   margin: 50px auto;
@@ -232,36 +232,57 @@ margin: 50px 5% 50px 5%;
 #dx {
   float: right;
 }
-.third-col h3, p, h4{
+.thirdminisection-col h3, p, h4{
   margin-top: 20px;
 }
-.third-col ul {
+.thirdminisection-col ul {
   margin-top: 20px;
 }
-.third-col hr {
+.thirdminisection-col hr {
   margin-top: 60px;
 }
-.third-col li {
+.thirdminisection-col li {
   display: block;
   text-align: left;
 }
-.third-col button {
+.thirdminisection-col button {
   margin-top: 40px;
 }
-/*#secondminisection-imgAndButton button {
-  text-align: center;
-} */
+
 /* SEZIONE 3 */
 #third {
   background: linear-gradient(to right, #00b5a3, #00fae1 100%);
   text-align:center;
   color: white;
 }
+
 /* SEZIONE 4 */
 #fourth {
   background-color: #fffce0;
-  height: 60vh;
 }
+
+#fourth-sx {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+#fourth-sx p:first-child {
+  font-size: 22pt;
+}
+.fourth-img {
+  width: 600px;
+  height: 150px;
+}
+.fourth-img img {
+  width: 120px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#fourth-dx-up, #fourth-dx-down {
+  float:right;
+}
+
 /* FOOTER */
 footer {
   background-color: #212245;
