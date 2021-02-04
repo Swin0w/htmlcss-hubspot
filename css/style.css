@@ -255,7 +255,15 @@ margin: 50px 5% 50px 5%;
   text-align:center;
   color: white;
 }
-
+#third-row-col2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 25%;
+  float: left;
+}
+#third-table {
+  width: 100%;
+}
 /* SEZIONE 4 */
 #fourth {
   background-color: #fffce0;
@@ -314,9 +322,15 @@ margin: 50px 5% 50px 5%;
   width: 300px;
   height: 300px;
 }
-/* #fourth-text {
-  width: 30%;
-} */
+#fourth-text p {
+  padding: 20px 0 20px 0;
+  color: #5e5e5d;
+}
+#tiny {
+  padding-top: 20px;
+  color: #5e5e5d;
+  font-size: 10pt;
+}
 /* FOOTER */
 footer {
   background-color: #212245;
